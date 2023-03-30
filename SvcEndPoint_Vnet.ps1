@@ -1,5 +1,4 @@
-﻿Get-AzSubscription
-Connect-AzAccount -SubscriptionId 1505263f-be1f-4c0c-ba25-fcc8b91018ca -TenantId e0793d39-0939-496d-b129-198edd916feb
+Set-AzContext -Subscription 1505263f-be1f-4c0c-ba25-fcc8b91018ca
 
 $resourceGroupName = "AKSVSSFRG"
 $vnetName = "vnetscript"
